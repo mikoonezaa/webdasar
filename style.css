@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto:ital,wght@1,500&display=swap');
+
+body {
+    font-family: sans-serif;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+nav a:hover{
+    font-weight: bold;
+}
+
+h2,
+h3 {
+    color:#00a2c6
+}
+
+.profile header {
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+    color:blue;
+    background-color: #00a2c6;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* css jarak */
+
+/*
+   padding : jarak dalam
+   margin : jarak luar
+*/
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile img{
+    width: 200px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding:20px;
+    margin-top: 20px;
+}
+
+.jumbotron{
+    padding: 60px;
+    background-color: #00c8eb;
+    text-align: center;
+    font-size: 20px;
+    color:white;
+}
+
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: #00a2c6;
+    padding:5px
+}
+
+nav a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    font-family: 'Quicksand' , sans-serif;
+    margin: 0;
+    padding:0;
+}
+
+main{
+    padding:20px;
+    overflow:auto;
+}
+
+#content {
+    float:left;
+    width: 75%;
+}
+
+aside{
+    float: right;
+    width:25%;
+    padding-left: 20px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.box {
+    /*margin keseluruhan atas,kanan,bawah,kiri*/
+        margin: 20px;
+    /* margin 10px atas bawah 20px kiri kanan */
+    margin: 10px 20px;
+    /*10 atas 20px kanan 30px bawah 40px kiri*/
+    margin: 10px 20px 30px 40px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    /* membuat suatu berada di tengah tapi dengan syarat harus sudah tersedia hight & widht sebelumnya*/
+    margin:auto;
+
+    margin:20px auto;
+}
+
+@media  screen and (max-width: 1000px){
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+nav {
+    background-color: #00a2c6;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+header{
+    display: inline;
+}
